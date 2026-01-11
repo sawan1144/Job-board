@@ -1,10 +1,12 @@
 import Home from "./pages/Home"
+import Jobdetails from "./pages/Jobdetails"
 
 function App() {
 
   return (
     <div>
-      <Home />
+      {/* <Home /> */}
+      <Jobdetails />
     </div>
   )
 }
