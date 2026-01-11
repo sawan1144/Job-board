@@ -3,7 +3,7 @@ import React from 'react'
 const Hero = () => {
   return (
     <div className='py-5'>
-        <h1 className='text-4xl font-extrabold w-[30vw]'>
+        <h1 className='text-5xl font-extrabold w-[38vw]'>
             Find top jobs for web designers and developers
         </h1>
         <h3 className='w-[40vw] py-5'>
