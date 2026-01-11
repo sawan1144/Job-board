@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
 import Searchbar from '../components/Searchbar'
+import Joblist from '../components/Joblist'
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
         <div className='px-70'>
           <Hero />
           <Searchbar />
+          <Joblist />
         </div>
     </div>
   )
