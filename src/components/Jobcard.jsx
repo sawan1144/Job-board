@@ -1,8 +1,16 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
-const Jobcard = ({img, title, locate, time}) => {
+const Jobcard = ({id, img, title, locate, time}) => {
+
+    const navigate = useNavigate();
+
+    function clickHandler(){
+        navigate(`/details/${id}`)
+    }
+
   return (
-    <div className='bg-white py-8 shadow-md rounded-lg px-5 flex divide-x-2 divide-gray-200 mb-5'>
+    <div onClick={clickHandler} className='bg-white py-8 shadow-md rounded-lg px-5 flex divide-x-2 divide-gray-200 mb-5'>
         <div className='w-1/5 flex justify-center'>
             <img className='h-20' src={img}/>
         </div>

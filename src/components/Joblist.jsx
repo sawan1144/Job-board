@@ -64,7 +64,7 @@ const Joblist = () => {
 
   return (
     <div className='py-8'>
-        {list.map((d)=><Jobcard key={d.id} img={d.img} title={d.title} locate={d.location} time={d.time} />)}
+        {list.map((d)=><Jobcard key={d.id} id={d.id} img={d.img} title={d.title} locate={d.location} time={d.time} />)}
     </div>
   )
 }
