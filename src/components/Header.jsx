@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Header = () => {
+const Header = React.memo(() => {
   return (
     <div className='py-10 flex justify-between items-center'>
         <div>
@@ -17,6 +17,6 @@ const Header = () => {
         </div>
     </div>
   )
-}
+})
 
 export default Header

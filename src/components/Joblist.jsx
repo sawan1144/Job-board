@@ -1,7 +1,7 @@
 import React from 'react'
 import Jobcard from './Jobcard'
 
-const Joblist = () => {
+const Joblist = ({location, title}) => {
 
     const list = [
     {
@@ -61,10 +61,17 @@ const Joblist = () => {
     id: '8'
     }
     ]
+    
+    const filteredList = list.filter((jobs)=>{
+      return jobs.title.toLowerCase().includes(title.toLowerCase()) &&
+      jobs.location.toLowerCase().includes(location.toLowerCase());
+    })
+
+    const toShow = filteredList.length > 0 ? filteredList : list;
 
   return (
     <div className='py-8'>
-        {list.map((d)=><Jobcard key={d.id} id={d.id} img={d.img} title={d.title} locate={d.location} time={d.time} />)}
+      {toShow.map((d)=><Jobcard key={d.id} id={d.id} img={d.img} title={d.title} locate={d.location} time={d.time} />)}
     </div>
   )
 }
