@@ -7,7 +7,7 @@ const Header = React.memo(() => {
   return (
     <div className='md:py-10 py-5 flex justify-between items-center relative'>
         <div>
-            <img className='h-12 w-12 rounded-full object-cover' src="https://e7.pngegg.com/pngimages/373/665/png-clipart-naukri-com-employment-website-job-hunting-online-job-search-india-employment.png"/>
+            <img className='h-12 w-12 rounded-full object-cover' src="https://m.media-amazon.com/images/I/519Hta3Km9L.png"/>
         </div>
         <div className='md:flex gap-10 items-center hidden'>
             <button>Jobs</button>
