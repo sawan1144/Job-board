@@ -9,11 +9,11 @@ const Home = () => {
   const [location, setLocation] = useState('')
 
   return (
-    <div className='bg-[#d2d9e7] h-[75vh]'>
-        <div className='px-30'>
+    <div className='bg-[#d2d9e7] md:h-[75vh]'>
+        <div className='xl:px-30 md:px-15 px-2'>
           <Header />
         </div>
-        <div className='px-70'>
+        <div className='xl:px-70 md:px-25 px-4'>
           <Hero />
           <Searchbar setTitle={setTitle} setLocation={setLocation}/>
           <Joblist location={location} title={title}/>

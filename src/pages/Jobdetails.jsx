@@ -101,11 +101,11 @@ const Jobdetails = () => {
 
   return (
     <div className='bg-[#d2d9e7] h-screen'>
-        <div className='px-30'>
+        <div className='xl:px-30 md:px-15'>
           <Header />
         </div>
-        <div className='px-70'>
-            <div className='my-5 py-10 px-15 bg-white rounded-lg space-y-10'>
+        <div className='xl:px-70 md:px-20 px-5'>
+            <div className='my-5 py-10 xl:px-15 md:px-7 px-4 bg-white rounded-lg space-y-10'>
                 <div className='flex justify-between items-center'>
                     <div className='text-3xl font-extrabold text-[#466c82]'>JOB DETAILS</div>
                     <Link to="/" ><img className='h-8' src='/public/svgs/back.svg'/></Link>
