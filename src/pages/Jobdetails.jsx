@@ -108,7 +108,7 @@ const Jobdetails = () => {
             <div className='my-5 py-10 xl:px-15 md:px-7 px-4 bg-white rounded-lg space-y-10'>
                 <div className='flex justify-between items-center'>
                     <div className='text-3xl font-extrabold text-[#466c82]'>JOB DETAILS</div>
-                    <Link to="/" ><img className='h-8' src='/public/svgs/back.svg'/></Link>
+                    <Link to="/" ><img className='h-8' src='/svgs/back.svg'/></Link>
                 </div>
                 <div className='flex gap-12 items-center'>
                     <div className='border border-gray-200 rounded-lg'><img src={job.img} className='h-20'/></div>
