@@ -11,15 +11,15 @@ const Hero = () => {
         </h3>
         <div className='md:flex py-5 gap-6'>
             <div className='bg-[#bec5d5] p-2 rounded-lg flex items-center gap-2 md:w-auto w-1/2 md:mb-0 mb-3'>
-                <img className='h-10' src='./public/svgs/design.svg'/>
+                <img className='h-10' src='/svgs/design.svg'/>
                 <h4 className='font-bold'>Web Design</h4>
             </div>
             <div className='bg-[#bec5d5] p-2 rounded-lg flex items-center gap-3 md:w-auto w-1/2 md:mb-0 mb-3'>
-                <img className='h-10' src='./public/svgs/develop.svg'/>
+                <img className='h-10' src='/svgs/develop.svg'/>
                 <h4 className='font-bold'>Web Development</h4>
             </div>
             <div className='bg-[#bec5d5] p-2 rounded-lg flex items-center gap-2 md:w-auto w-1/2 md:mb-0'>
-                <img className='h-10' src='./public/svgs/entry.svg'/>
+                <img className='h-10' src='/svgs/entry.svg'/>
                 <h4 className='font-bold'>Web Entry</h4>
             </div>
         </div>

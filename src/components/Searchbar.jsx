@@ -15,7 +15,7 @@ const Searchbar = ({setLocation, setTitle}) => {
         <form  className='bg-white md:py-10 md:px-8 rounded-lg shadow-lg'>
           <div className='flex items-center divide-x-2 divide-gray-300 h-10 w-full'>
             <div className='md:w-1/2 w-[35%] flex md:gap-3 gap-1 items-center'>
-              <img src="./public/svgs/search.svg" className='h-5'/>  
+              <img src="/svgs/search.svg" className='h-5'/>  
               <input type="text" placeholder='Search by title' 
               className='outline-none flex-1'
               value={search} onChange={(e)=>setSearch(e.target.value)}/>
